@@ -32,7 +32,7 @@ float divisao(float dividendo, float divisor){
 }
 
 int main(){
-    int resp, ;
+    int resp ;
     float elemento1, elemento2, divivendo, divisor;
-    
+
 }
