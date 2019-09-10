@@ -34,5 +34,7 @@ float divisao(float dividendo, float divisor){
 int main(){
     int resp ;
     float elemento1, elemento2, divivendo, divisor;
+    printf("Soma - 1\n Subtracao - 2\n Multiplicacao - 3\n Divisao - 4\n Finalizar Calculadora - 0\n");
+    
 
 }
