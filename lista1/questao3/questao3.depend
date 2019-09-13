@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1568408949 source:/home/keila/Documentos/faculdade/listas-metodos/lista1/questao3/questao3/main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcoes.h"
+
+1568408683 source:/home/keila/Documentos/faculdade/listas-metodos/lista1/questao3/questao3/funcoes.c
+	<stdio.h>
+	<stdlib.h>
+	"funcoes.h"
+
+1568408571 /home/keila/Documentos/faculdade/listas-metodos/lista1/questao3/questao3/funcoes.h
+
