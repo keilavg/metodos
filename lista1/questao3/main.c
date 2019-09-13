@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "funcoes.h"
+#include "funcoes.c"
 
 int main()
 {
@@ -10,7 +10,7 @@ int main()
     l = insere(l, 5);
     l = insere(l, 3);
     imprime(l);
-    l = remove1(l, 7);
+    l = remove1(l, 5);
     imprime(l);
     libera(l);
     return 0;
