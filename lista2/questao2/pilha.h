@@ -17,3 +17,4 @@ void push(Pilha * p);
 void pop(Pilha * p);
 void imprime(Pilha *p);
 void libera(Pilha ** p);
+void qntElementos(Pilha* p);
