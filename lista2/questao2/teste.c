@@ -20,4 +20,5 @@ int main()
     pop(p);
     imprime(p);
     qntElementos(p);
+    libera(&p);
 }
