@@ -54,13 +54,3 @@ void libera(Pilha ** p)
     *p = NULL;
 }
 
-void qntElementos(Pilha* p){
-    int cont = 0;
-    Lista* l = p -> topo;
-    while(l != NULL){
-        cont ++;
-        l = l -> prox;
-    }
-    printf("Quantidade de elementos na fila é: %d\n", cont);
-    
-}

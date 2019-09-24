@@ -12,12 +12,10 @@ int main()
     push1(p, "keila\n");
     
     push1(p, "viana \n");
-    qntElementos(p);
     imprime(p);
 
     pop(p);
     imprime(p);
     pop(p);
     imprime(p);
-    qntElementos(p);
 }
