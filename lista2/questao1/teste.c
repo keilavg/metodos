@@ -18,5 +18,5 @@ int main()
     imprime(p);
     pop(p);
     imprime(p);
-    libera(p);
+    libera(&p);
 }

@@ -19,5 +19,5 @@ int main(){
     remover(f);
     remover(f);
     imprime(f);
-    libera(f);
+    libera(&f);
 }
