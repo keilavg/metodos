@@ -10,6 +10,7 @@ int main(){
     inserir(f, 4);
     inserir(f,8);
     imprime(f);
+    posi(f,2);
     posi(f, 7);
     posi(f, 8);
     posi(f, 4);

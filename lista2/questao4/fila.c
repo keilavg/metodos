@@ -69,12 +69,12 @@ void libera(Fila** f){
 void posi(Fila* f, int v){
     int cont=0;
     for (Lista* l = f -> frente; l!= NULL; l = l-> prox){
-        cont ++;
+        
         if (l -> info == v){
             printf("valor encontrado na posicao:%d\n", cont);
             return;
         }
-    
+        cont ++;
     }
     printf("Valor nao encontrado\n");
 }
