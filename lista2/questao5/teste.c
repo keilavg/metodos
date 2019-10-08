@@ -4,10 +4,14 @@
 
 int main(){
     
-    Arvore* x = cria('a', NULL, NULL);
-    Arvore* y = cria('b', NULL, NULL);
-    Arvore* z = cria('c', x, y);
+    Arvore* x; 
+    Arvore* y; 
+    Arvore* z;
     
+    x = cria('a', NULL, NULL);
+    y = cria('b', NULL, NULL);
+    z = cria('c', x, y);
+
     imprime(z);
     
  

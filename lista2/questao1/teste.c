@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-// adição da função que retorna a quantidade de itens na pilha.
+
 int main()
 {
 

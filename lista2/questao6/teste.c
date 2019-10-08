@@ -10,7 +10,8 @@ int main(){
     imprime(z);
     imprime(x);
     
-    imprime(z);
+    t = pertence(z,'c');
+    printf("%d\n", t);
     
     if (pertence(z, 'x')== 0){
         printf("Nao pertence\n");
@@ -24,12 +25,13 @@ int main(){
 
     }else{
         printf("Item pertence a arvore\n");
-    };
+    }
 
-    z = vazia(z);
+    libera(&z);
 
-    pertence(z, 'c');
-    
+
+
+
 
     
 }

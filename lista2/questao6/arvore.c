@@ -32,9 +32,6 @@ void libera(Arvore** raiz){
 }
 
 int pertence(Arvore* raiz, char c){
-    if (vazia(raiz)){
-        printf("Arvore vazia");
-    }
 
     if (!vazia(raiz)){
         if(raiz -> info == c){

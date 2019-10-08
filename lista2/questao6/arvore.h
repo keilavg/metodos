@@ -8,3 +8,4 @@ Arvore* cria(char c, Arvore*esq, Arvore* dir);
 int vazia(Arvore* raiz);
 void imprime(Arvore* raiz);
 void libera(Arvore** raiz);
+int pertence(Arvore* raiz, char c);
