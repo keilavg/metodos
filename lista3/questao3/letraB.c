@@ -12,28 +12,23 @@ float *vetor (int n_componentes){
     return v;
 }
 
-void selecao (float *v, int n_componentes){
-    float aux;
+void insercao (float* v, int n_componentes){
+    int i, j;
+    float dado;
 
-    int i, j, max, min;
-    for (i =0; i < n_componentes; i++){
-        min =i;
-        for(j = i+ 1; j< n_componentes; j++){
-            if (v[j]<v[i]){
-            min =j;
-            }
+    for (i = 1; i < n_componentes; i++){
+        dado = v[i];
+        for (j = i - 1; j >= 0 && v[j]> dado; j --){
+            v[j+1] = v[j];
         }
-        aux =v[i];
-        v[i] = v[min];
-        v [min]=aux;
+        v[j+1] = dado; 
     }
     for (i=0; i < n_componentes; i++){
     printf("%f  ", v[i]);}
-
 }
 
 int main(){
-    printf("°°°°°°°°°°°°°°°°°°°°°°°°ORDENAÇÃO POR SELEÇÃO°°°°°°°°°°°°°°°°°°°°°°°°\n");
+    printf("°°°°°°°°°°°°°°°°°°°°°°°°ORDENAÇÃO POR INSERSAO°°°°°°°°°°°°°°°°°°°°°°°°\n");
     int i, n_componentes;
     float *vet;
 
@@ -44,5 +39,5 @@ int main(){
     for(i=0; i < n_componentes; i++){
         printf("%.2f\n", vet[i]);
     }
-    selecao(vet, n_componentes);
+    insercao(vet, n_componentes);
 }
