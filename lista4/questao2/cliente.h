@@ -10,7 +10,6 @@
 #include <netinet/in.h>
 #elif _WIN32
 #include <winsock2.h>
-#include <stdint.h>
 #endif // __linux__
 
 #define REQ_HA_DADOS_MSG "ha_dados"
